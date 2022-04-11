@@ -46,7 +46,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `fullname`, `username`, `password`, `email`, `address`, `phone`, `gender`, `avatar`, `status`, `role`) VALUES
-(1, 'SPACE TEAM', 'admin', 'e10adc3949ba59abbe56e057f20f883e', 'spaceteam.hcmue@gmail.com', '351A Lạc Long Quân Phường 5 Quận 11 TP.Hồ Chí Minh', '0377077630', 'male', 'admi1.jpg', 1, 1)
+(1, 'SPACE TEAM', 'admin', 'Admin123@', 'spaceteam.hcmue@gmail.com', '351A Lạc Long Quân Phường 5 Quận 11 TP.Hồ Chí Minh', '0377077630', 'male', 'admi1.jpg', 1, 1)
 -- --------------------------------------------------------
 
 --
@@ -336,7 +336,7 @@ CREATE TABLE `users` (
   `user_id` int(11) NOT NULL,
   `fullname` varchar(50) COLLATE utf8_vietnamese_ci NOT NULL,
   `username` varchar(50) COLLATE utf8_vietnamese_ci NOT NULL,
-  `password` varchar(50) COLLATE utf8_vietnamese_ci NOT NULL,
+  `password` varchar(50) NOT NULL,
   `email` varchar(50) COLLATE utf8_vietnamese_ci NOT NULL,
   `phone` char(15) COLLATE utf8_vietnamese_ci NOT NULL,
   `address` varchar(100) COLLATE utf8_vietnamese_ci NOT NULL,

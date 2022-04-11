@@ -26,12 +26,12 @@ if (isset($_POST['btn_login'])) {
         if (!is_password($_POST['password'])) {
             $error['password'] = "Mật khẩu chưa đúng định dạng";
         } else {
-            $password = md5($_POST['password']);
+            $password = $_POST['password'];
         }
     }
     // Kết luận
     if (empty($error)) {
-//        $password = md5($password);
+       $password = $password;
         $sql = "SELECT username,password FROM users where username ='{$username}' and password ='{$password}' and status = 1";
         $result = mysqli_query($conn, $sql);
         $num_rows = mysqli_num_rows($result);

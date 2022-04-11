@@ -99,7 +99,7 @@
                     </div>
                     <div id="head-body" class="clearfix">
                         <div class="wp-inner">
-                            <a href="?page=home" title="" id="logo" class="fl-left"><img style="width:200px" src="public/images/logo1.png"/></a>
+                            <a href="?page=home" title="" id="logo" class="fl-left"><img style="width:200px" src="public/images/reg.png"/></a>
                             <div id="search-wp" class="fl-left">
                                 <form method="POST" action="?mod=search&act=search_product">
                                     <input type="text" name="keyword" id="search" placeholder="Nhập từ khóa tìm kiếm tại đây!">
@@ -109,7 +109,7 @@
                             <div id="action-wp" class="fl-right">
                                 <div id="advisory-wp" class="fl-left">
                                     <span class="title">Tư vấn</span>
-                                    <span class="phone">0377 077 630</span>
+                                    <span class="phone">0908670878</span>
                                 </div>
                                 <div id="btn-respon" class="fl-right"><i class="fa fa-bars" aria-hidden="true"></i></div>
                                 <a href="?mod=cart&act=show" title="giỏ hàng" id="cart-respon-wp" class="fl-right">

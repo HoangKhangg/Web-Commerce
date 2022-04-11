@@ -55,10 +55,10 @@ $list_post = get_post();
                         </li>
                         <li>
                             <div class="thumb">
-                                <img src="admin/uploads/icon-2.png">
+                                <!-- <img src="admin/uploads/icon-2.png"> -->
                             </div>
-                            <h3 class="title">Tư vấn 24/7</h3>
-                            <p class="desc">0377077630</p>
+                            <!-- <h3 class="title">Tư vấn 24/7</h3> -->
+                            <p class="desc">0908670878</p>
                         </li>
                         <li>
                             <div class="thumb">

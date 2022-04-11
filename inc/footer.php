@@ -19,10 +19,10 @@
                         <p style="color: white;">351A - Lạc Long Quân Phường 5 Quận 11</p>
                     </li>
                     <li>
-                        <p style="color: white;">0377077630-092361253</p>
+                        <p style="color: white;">0908670878</p>
                     </li>
                     <li>
-                        <p style="color: white;">spaceteam.hcmue@gmail.com</p>
+                        <p style="color: white;">nhutxngm@mail.com</p>
                     </li>
                 </ul>
             </div>
@@ -49,13 +49,13 @@
     </div>
     <div id="foot-bot">
         <div class="wp-inner">
-            <p id="copyright" style="color: white;">© SPACE TEAM | Trường Đại Học Sư Phạm TP.Hồ Chí Minh</p>
+            <p id="copyright" style="color: white;">© WEB TEAM | Trường Đại Học Sư Phạm TP.Hồ Chí Minh</p>
         </div>
     </div>
 </div>
 </div>
 <div id="menu-respon">
-    <a href="?page=home" title="" class="logo">SPACE TEAM</a>
+    <a href="?page=home" title="" class="logo">WEB TEAM</a>
     <div id="menu-respon-wp">
         <div id="main-menu-wp">
             <ul class="" id="main-menu-respon">
@@ -123,7 +123,6 @@
             return;
         js = d.createElement(s);
         js.id = id;
-//        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=849340975164592";
         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));

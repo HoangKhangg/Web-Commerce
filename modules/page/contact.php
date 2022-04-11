@@ -26,10 +26,10 @@ get_header()
                 <div class="section-detail">
                     <span class="create-date">2020-07-09 11:33:00</span>
                     <div class="detail">
-                        <p>Website thương mại điện tử SPACETEAM</p>
+                        <p>Website thương mại điện tử WEB TEAM</p>
                         <p>Địa chỉ: 351A Lạc Long Quân Phường 5 Quận 11 TP.Hồ Chí Minh</p>
-                        <p>Số điện thoại: 0377077630</p>
-                        <p>Email: spaceteam.hcmue@gmail.com</p>
+                        <p>Số điện thoại: 0908670878</p>
+                        <p>Email: nhutxngm@gmail.com</p>
                     </div>
                 </div>
             </div>
