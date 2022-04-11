@@ -19,7 +19,7 @@ if (isset($_POST['btn_change_pass'])) {
         if (!is_password($_POST['pass_old'])) {
             $error['pass_old'] = "Mật khẩu cũ chưa đúng định dạng";
         } else {
-            $pass_old = md5($_POST['pass_old']);
+            $pass_old = $_POST['pass_old'];
         }
     }
     // ktra password mới
@@ -29,7 +29,7 @@ if (isset($_POST['btn_change_pass'])) {
         if (!is_password($_POST['pass_new'])) {
             $error['pass_new'] = "Mật khẩu mới chưa đúng định dạng";
         } else {
-            $pass_new = md5($_POST['pass_new']);
+            $pass_new = $_POST['pass_new'];
         }
     }
 //    // ktra password nhap lai
@@ -39,7 +39,7 @@ if (isset($_POST['btn_change_pass'])) {
 //        if (!is_password($_POST['password'])) {
 //            $error['confirm_pass'] = "Xác nhận mật khẩu chưa đúng định dạng";
 //        } else {
-//            $confirm_pass = md5($_POST['confirm_pass']);
+//            $confirm_pass =$_POST['confirm_pass'];
 //        }
 //    }
 

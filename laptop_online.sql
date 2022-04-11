@@ -45,8 +45,7 @@ CREATE TABLE `admin` (
 -- Dumping data for table `admin`
 --
 
-INSERT INTO `admin` (`id`, `fullname`, `username`, `password`, `email`, `address`, `phone`, `gender`, `avatar`, `status`, `role`) VALUES
-(1, 'SPACE TEAM', 'admin', 'Admin123@', 'spaceteam.hcmue@gmail.com', '351A Lạc Long Quân Phường 5 Quận 11 TP.Hồ Chí Minh', '0377077630', 'male', 'admi1.jpg', 1, 1)
+
 -- --------------------------------------------------------
 
 --

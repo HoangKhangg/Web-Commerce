@@ -34,7 +34,6 @@ if (isset($_POST['btn_reg'])) {
         if (!is_password($_POST['password'])) {
             $error['password'] = "Mật khẩu không đúng định dạng";
         } else { // khớp định dạng
-            // $password = md5($_POST['password']);
             $password = $_POST['password'];// xuất ra password
         }
     }
@@ -78,7 +77,7 @@ if (isset($_POST['btn_reg'])) {
     // Bước 3: Kết luận
     if (empty($error)) {
         if (!user_exists($username, $email)) {
-            // $active_token = md5($username . time()); // mã kích hoạt 
+             $active_token = $username . time(); // mã kích hoạt 
             $data = array(
                 'fullname' => $fullname,
                 'username' => $username,
@@ -87,7 +86,7 @@ if (isset($_POST['btn_reg'])) {
                 'phone' => $phone,
                 'address' => $address,
                 'gender' => $gender,
-                // 'active_token' => $active_token
+                'active_token' => $active_token
             );
             add_user($data);
             redirect_to("?mod=users&act=login");

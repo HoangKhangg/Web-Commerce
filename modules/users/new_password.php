@@ -14,7 +14,7 @@ if (!empty($reset_token)) {
                 if (!is_password($_POST['password'])) {
                     $error['password'] = "Mật khẩu chưa đúng định dạng";
                 } else {
-                    $password = md5($_POST['password']);
+                    $password = $_POST['password'];
                 }
             }
             if (empty($error)) {

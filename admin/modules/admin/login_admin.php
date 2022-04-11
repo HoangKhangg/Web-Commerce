@@ -21,7 +21,7 @@ if (isset($_POST['btn_login'])) {
         if (!is_password($_POST['password'])) {
             $error['password'] = "Mật khẩu chưa đúng định dạng";
         } else {
-            $password = md5($_POST['password']);
+            $password = $_POST['password'];
         }
     }
 // Kết luận
