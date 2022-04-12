@@ -40,7 +40,9 @@ function update_info_cart() {
 
 function get_list_by_cart() {
     if (isset($_SESSION['cart'])) {
-        foreach ($_SESSION['cart']['buy'] as &$item) { // & là tham trị ; $ là tham chiếu
+        foreach ($_SESSION['cart']['buy'] as &$item) {
+            
+            // & là tham trị ; $ là tham chiếu
 //            $item['url_delete_cart'] = "?mod=cart&act=delete&id={$item['id']}";
         }
         return $_SESSION['cart']['buy']; // chỉ xuất ra sản phẩm muốn mua

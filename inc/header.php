@@ -50,53 +50,7 @@
         <div id="site">
             <div id="container">
                 <div id="header-wp">
-                    <div id="head-top" class="clearfix">
-                        <div class="wp-inner">
-                            <div id="main-menu-wp" class="fl-left">
-                                <ul id="main-menu" class="clearfix">
-                                    <li class="active">
-                                        <a href="?page=home" title="">Trang chủ</a>
-                                    </li>
-                                    <li>
-                                        <a href="?mod=post&act=blog" title="">Blog</a>
-                                    </li>
-                                    <li>
-                                        <a href="?mod=page&act=main" title="">Giới Thiệu</a>
-                                    </li>
-                                    <li>
-                                        <a href="?mod=page&act=contact" title="">Liên hệ</a>
-                                    </li>
-                                </ul>
-                            </div>
-
-                            <?php
-                            if (isset($_SESSION['is_login'])) {
-                                ?>
-                                <div id="user-login" class="dropdown dropdown-extended fl-right">
-                                    <button class="dropdown-toggle clearfix" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                        <h3 id="account" class="fl-right">Hello <strong><?php if (is_login()) echo info_user('fullname'); ?></strong></h3>
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="?mod=users&act=info_account" title="Thông tin cá nhân">Thông tin cá nhân</a></li>
-                                        <!--                                        <li><a href="?mod=users&act=change_password" title="Đổi mật khẩu">Đổi mật khẩu</a></li>-->
-                                        <li><a class="logout" onclick="return confirmAction_users()" href="?mod=users&act=logout">Đăng xuất</a></li>
-                                    </ul>
-                                </div>
-                                <?php
-                            }else {
-                                ?>
-                                <div id="action-user" class="fl-right">
-                                    <div id="not-signed">
-                                        <a href="?mod=users&act=login" title="" id="login">Đăng nhập</a>
-                                        <span id="icon">/</span>
-                                        <a href="?mod=users&act=register" title="" id="reg">Đăng ký</a>
-                                    </div>
-                                </div>
-                                <?php
-                            }
-                            ?>
-                        </div>
-                    </div>
+                    
                     <div id="head-body" class="clearfix">
                         <div class="wp-inner">
                             <a href="?page=home" title="" id="logo" class="fl-left"><img style="width:200px" src="public/images/reg.png"/></a>
@@ -193,6 +147,53 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div id="head-top" class="clearfix">
+                        <div class="wp-inner">
+                            <div id="main-menu-wp" class="fl-left">
+                                <ul id="main-menu" class="clearfix">
+                                    <li class="active">
+                                        <a href="?page=home" title="">Trang chủ</a>
+                                    </li>
+                                    <li>
+                                        <a href="?mod=post&act=blog" title="">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a href="?mod=page&act=main" title="">Giới Thiệu</a>
+                                    </li>
+                                    <li>
+                                        <a href="?mod=page&act=contact" title="">Liên hệ</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <?php
+                            if (isset($_SESSION['is_login'])) {
+                                ?>
+                                <div id="user-login" class="dropdown dropdown-extended fl-right">
+                                    <button class="dropdown-toggle clearfix" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                        <h3 id="account" class="fl-right">Hello <strong><?php if (is_login()) echo info_user('fullname'); ?></strong></h3>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="?mod=users&act=info_account" title="Thông tin cá nhân">Thông tin cá nhân</a></li>
+                                        <!--                                        <li><a href="?mod=users&act=change_password" title="Đổi mật khẩu">Đổi mật khẩu</a></li>-->
+                                        <li><a class="logout" onclick="return confirmAction_users()" href="?mod=users&act=logout">Đăng xuất</a></li>
+                                    </ul>
+                                </div>
+                                <?php
+                            }else {
+                                ?>
+                                <div id="action-user" class="fl-right">
+                                    <div id="not-signed">
+                                        <a href="?mod=users&act=login" title="" id="login">Đăng nhập</a>
+                                        <span id="icon">/</span>
+                                        <a href="?mod=users&act=register" title="" id="reg">Đăng ký</a>
+                                    </div>
+                                </div>
+                                <?php
+                            }
+                            ?>
                         </div>
                     </div>
                 </div>

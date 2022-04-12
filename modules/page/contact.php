@@ -27,13 +27,13 @@ get_header()
                     <span class="create-date">2020-07-09 11:33:00</span>
                     <div class="detail">
                         <p>Website thương mại điện tử WEB TEAM</p>
-                        <p>Địa chỉ: 351A Lạc Long Quân Phường 5 Quận 11 TP.Hồ Chí Minh</p>
+                        <p>Địa chỉ: 280 An Dương Vương Phường 4 Quận  TP.Hồ Chí Minh</p>
                         <p>Số điện thoại: 0908670878</p>
                         <p>Email: nhutxngm@gmail.com</p>
                     </div>
                 </div>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4661.113152141683!2d106.6427739275321!3d10.771939673442276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ebd9847d7a3%3A0x7c62ba428463a53e!2zMzUxQSBM4bqhYyBMb25nIFF1w6JuLCBQaMaw4budbmcgNSwgUXXhuq1uIDExLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1595169995930!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.65050945137!2d106.67999871744384!3d10.761395200000008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f1b888ab357%3A0xc469f6e800231314!2zMjgwIEFuIEQuIFbGsMahbmcsIFBoxrDhu51uZyA0LCBRdeG6rW4gNSwgVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2sus!4v1649755569018!5m2!1svi!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <div class="section" id="social-wp">
                 <div class="section-detail">
                     <div class="fb-like" data-href="" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
