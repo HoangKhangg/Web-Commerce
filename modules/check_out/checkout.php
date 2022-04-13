@@ -117,7 +117,7 @@ if (isset($_SESSION["cart"]["buy"])) {
                 <h1 style="color:red;">Thông báo đơn hàng hoàn tất</h1>
                 <p>Chào <b>' . $fullname . '</b></p>'
                         . '<p>Đơn hàng #<b>' . $bill_id . '</b> của bạn đã hoàn tất.</p>'
-                        . 'Cảm ơn bạn đã mua hàng tại SPACE TEAM.<br> Thông tin đơn hàng của bạn: <b> ' . displayResultsAsTable($list_buy) . '</b>
+                        . 'Cảm ơn bạn đã mua hàng tại WEB TEAM.<br> Thông tin đơn hàng của bạn: <b> ' . displayResultsAsTable($list_buy) . '</b>
                 <p>Rất mong được phục vụ bạn trong những lần mua tiếp theo.</p>
                 ';
                 

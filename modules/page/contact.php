@@ -24,7 +24,7 @@ get_header()
                     <h3 class="section-title">Liên hệ</h3>
                 </div>
                 <div class="section-detail">
-                    <span class="create-date">2020-07-09 11:33:00</span>
+                    <span class="create-date">2022-04-07 11:33:00</span>
                     <div class="detail">
                         <p>Website thương mại điện tử WEB TEAM</p>
                         <p>Địa chỉ: 280 An Dương Vương Phường 4 Quận  TP.Hồ Chí Minh</p>
