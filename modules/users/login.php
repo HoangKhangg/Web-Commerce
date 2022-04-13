@@ -84,7 +84,7 @@ if (isset($_POST['btn_login'])) {
                     }
                     ?>
                     <a href="?mod=users&act=forgot_password" id="lost-pass">Quên mật khẩu?</a>
-                    <input type="submit" name="btn_login" id="btn_login" value="Login">
+                    <input type="submit" name="btn_login" id="btn_login" value="Đăng nhập">
                     <?php
                     if (!empty($error['acount'])) {
                         ?>

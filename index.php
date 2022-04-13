@@ -9,7 +9,6 @@ ob_start();
 //}
 
 require 'db/connect.php';
-require 'db/config.php';
 require 'db/database.php';
 
 //Function: thư viện hàm

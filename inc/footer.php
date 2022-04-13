@@ -3,20 +3,20 @@
         <div class="wp-inner clearfix">
             <div class="block" id="info-company">
             
-                <h3 class="title" style="color: white;">SPACE TEAM</h3>
-                <p class="desc" style="color: white;">SPACE TEAM luôn cung cấp luôn là sản phẩm chính hãng có thông tin rõ ràng, chính sách ưu đãi cực lớn cho khách hàng có thẻ thành viên.</p>
-                <div id="payment">
+                <h3 class="title" style="color: white;">WEB TEAM</h3>
+                <p class="desc" style="color: white;">WEB TEAM luôn cung cấp luôn là sản phẩm chính hãng có thông tin rõ ràng, chính sách ưu đãi cực lớn cho khách hàng có thẻ thành viên.</p>
+                <!-- <div id="payment">
                     <div class="thumb">
                         <img src="public/images/img-foot.png" alt="">
                     </div>
-                </div>
+                </div> -->
             </div>
             
             <div class="block menu-ft" id="info-shop">
                 <h3 class="title" style="color: white;">Thông tin cửa hàng</h3>
                 <ul class="list-item">
                     <li>
-                        <p style="color: white;">351A - Lạc Long Quân Phường 5 Quận 11</p>
+                        <p style="color: white;">280 An Dương Vương Phường 4 Quận 5</p>
                     </li>
                     <li>
                         <p style="color: white;">0908670878</p>
@@ -49,7 +49,8 @@
     </div>
     <div id="foot-bot">
         <div class="wp-inner">
-            <p id="copyright" style="color: white;">© WEB TEAM | Trường Đại Học Sư Phạm TP.Hồ Chí Minh</p>
+            <p id="copyright" style="color: white;">Commerce © 2022 All rights reserved </p>
+            <p>Supported Email: enquiry@husol.org</p>
         </div>
     </div>
 </div>
